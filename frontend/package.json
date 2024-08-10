@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@shivanandh33/medium-clone": "^1.0.0",
+    "@shivanandh33/medium-clone": "^1.1.0",
     "axios": "^1.7.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

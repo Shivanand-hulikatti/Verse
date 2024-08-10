@@ -25,12 +25,15 @@ export declare const signInInput: z.ZodObject<{
 export declare const createPostInput: z.ZodObject<{
     title: z.ZodString;
     content: z.ZodString;
+    publishedDate: z.ZodString;
 }, "strip", z.ZodTypeAny, {
     title: string;
     content: string;
+    publishedDate: string;
 }, {
     title: string;
     content: string;
+    publishedDate: string;
 }>;
 export declare const updatePostInput: z.ZodObject<{
     title: z.ZodString;

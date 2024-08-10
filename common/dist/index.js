@@ -17,6 +17,7 @@ exports.signInInput = zod_1.default.object({
 exports.createPostInput = zod_1.default.object({
     title: zod_1.default.string(),
     content: zod_1.default.string(),
+    publishedDate: zod_1.default.string(),
 });
 exports.updatePostInput = zod_1.default.object({
     title: zod_1.default.string(),

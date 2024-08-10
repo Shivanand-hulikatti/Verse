@@ -16,6 +16,7 @@ export const signInInput = z.object({
 export const createPostInput = z.object({
     title :z.string(),
     content : z.string(),
+    publishedDate : z.string(),
 })
 
 
