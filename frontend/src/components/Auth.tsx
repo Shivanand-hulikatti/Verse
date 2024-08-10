@@ -56,7 +56,7 @@ const Auth = ({ type }: { type: "signup" | "signin" }) => {
                     <InputLabel
                         label="Password"
                         type="password"
-                        placeholder="Enter password"
+                        placeholder="Enter password (min 8 charcters)"
                         onChange={(e) => setPostInput({ ...postInputs, password: e.target.value })}
                     />
                     <div>
